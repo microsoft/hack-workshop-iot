@@ -98,7 +98,8 @@ Your team will set up the Pi, ML model and IoT application, then connect everyth
 1. [Set up your IoT application](set-up-iot-central.md): Your team will set up an IoT application in the cloud using IoT Central, an IoT software-as-a-service (SaaS) platform. You will be provided with a pre-built application template to use.
 
 1. [Deploy device code to your Pi](deploy-device-code.md): The code for the IoT device needs to be configured and deployed to the Raspberry Pi. You will then be able to test out your application.
-    > 💻 If you are using a PC or Mac instead of a Pi, your team will need to [run the device code locally](run-code-locally.md).
+
+    > 💻 If you are using a PC or Mac instead of a Pi, your team will need to run the device code locally.
 
 > 💁 The first 3 goals can be worked on concurrently, with different team members working on different steps. Once these 3 are completed, the final step can be worked on by the team.
 
