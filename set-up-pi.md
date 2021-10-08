@@ -59,7 +59,7 @@ Once the Pi has booted, you should be able to SSH into the Pi using the followin
 ssh pi@<hostname>.local
 ```
 
-Replace `<hostname>` with the hostname you chose for your Pi. WHen prompted for a password, enter the password you set in the imager.
+Replace `<hostname>` with the hostname you chose for your Pi. When prompted for a password, enter the password you set in the imager.
 
 > 💁 Most modern computers running a recent version of Linux or Windows should be able to find devices on your local network using the `<hostname>.local` syntax. macOS supports this out of the box. If you are using Linux or Windows and have issues, there are steps to make this work in [this set of steps in IoT for beginners from Microsoft](https://github.com/microsoft/IoT-For-Beginners/blob/main/1-getting-started/lessons/1-introduction-to-iot/pi.md#task---connect-to-the-pi).
 
