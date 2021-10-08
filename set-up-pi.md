@@ -24,13 +24,15 @@ To install Raspberry Pi OS on an SD Card, you will need to use the Raspberry Pi 
 
 Run the imager, select the Raspberry Pi OS Lite OS, and select your SD card. Don't select the write button yet!
 
+> 💁 If the WiFi you will be using has a captive portal, or other restrictions beyond a simple SSID/password combination then you will need to install the full Raspberry Pi OS (not Lite) and connect your Pi to a keyboard/monitor/mouse to configure the WiFi.
+
 Before you write the image, you will need to configure a few things such as the WiFi details that the Pi will use to connect. These need to be configured up front as you won't be connecting your Pi to a keyboard/mouse/monitor, instead you will be running it *headless*. The Pi will need to be on the same WiFi network as at least on team members computer.
 
 > 💁 If you have any issues with the hackathon WiFi, a popular fallback is to connect the Pi and one computer to a mobile hot-spot or tether to a phone.
 
 Follow the instructions in the [Raspberry Pi Imager blog post](https://www.raspberrypi.org/blog/raspberry-pi-imager-update-to-v1-6/) to launch the advanced settings. This setting dialog is launched by pressing `Ctrl+Shift+x`.
 
-Set up the WiFi details on the Pi, ensure *Enable SSH* is set, set a password, and set a unique hostname. You will connect to the Pi via this hostname, so it will need to be unique - if other hackers at this event have the same Pi name you won't be able to log into your Pi. You can leave the username as `pi`.
+Set up the WiFi details on the Pi, ensure *Enable SSH* is set, set a password, and set a unique hostname. You will connect to the Pi via this hostname, so it will need to be unique - if other hackers sharing the same WiFi at this event have the same Pi name you won't be able to log into your Pi. You can leave the username as `pi`.
 
 > 💁 If the WiFi you are using has a captive portal, or other restrictions beyond a simple SSID/password combination then you will need to install the full Raspberry Pi OS (not Lite) and connect your Pi to a keyboard/monitor/mouse to configure the WiFi.
 
