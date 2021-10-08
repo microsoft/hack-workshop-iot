@@ -32,7 +32,7 @@ Before you write the image, you will need to configure a few things such as the 
 
 Follow the instructions in the [Raspberry Pi Imager blog post](https://www.raspberrypi.org/blog/raspberry-pi-imager-update-to-v1-6/) to launch the advanced settings. This setting dialog is launched by pressing `Ctrl+Shift+x`.
 
-Set up the WiFi details on the Pi, ensure *Enable SSH* is set, set a password, and set a unique hostname. You will connect to the Pi via this hostname, so it will need to be unique - if other hackers sharing the same WiFi at this event have the same Pi name you won't be able to log into your Pi. You can leave the username as `pi`.
+Set up the WiFi details on the Pi, ensure *Enable SSH* is set, set a password, and set a unique hostname. You will connect to the Pi via this hostname, so it will need to be unique - if other hackers sharing the same WiFi at this event have the same Pi name you won't be able to log into your Pi by name and will need to connect via IP address, which adds complexity as you may need to connect your Pi to a keyboard/maouse/monitor to get this IP address. You can leave the username as `pi`.
 
 > 💁 If the WiFi you are using has a captive portal, or other restrictions beyond a simple SSID/password combination then you will need to install the full Raspberry Pi OS (not Lite) and connect your Pi to a keyboard/monitor/mouse to configure the WiFi.
 
