@@ -76,7 +76,7 @@ When a dog breed needs to be detected:
 
 1. The IoT application sends a command to the IoT device to detect the breed
 
-1. The IoT device captures an image using it's camera
+1. The IoT device captures an image using its camera
 
 1. The image is sent to the image classifier ML model in the cloud to detect the breed
 
