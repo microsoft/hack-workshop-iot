@@ -71,7 +71,8 @@ You will need to update your Pi, and install some software that interacts with c
 
 ```sh
 sudo apt update && sudo apt full-upgrade --yes
-sudo apt install --yes libatlas-base-dev libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev libqtgui4 libqt4-test
+sudo apt install --yes libatlas-base-dev libjasper-dev libhdf5-dev libhdf5-serial-dev libqtgui4 libqt4-test
+sudo apt install --yes python-opencv python3-opencv
 sudo apt install --yes python3-dev python3-pip
 sudo raspi-config nonint do_camera 0
 sudo reboot
