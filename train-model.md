@@ -94,7 +94,7 @@ Your team might find these resources helpful:
 ## Tips
 
 - When you create the training and prediction resource, use the **Free F0** tier, as this is free to use!
-- You **MUST** set the tags to be the breed name from the image file name. The validation script assumes this is the case, and the IoT application you will set up in the next goal relies on these names matching.
+- You **MUST** set the tags to be the breed name from the image file name, without the number. For example, all images named `german-wirehaired-pointer-x` such as `german-wirehaired-pointer-1`, `german-wirehaired-pointer-2` etc., should all be tagged as `german-wirehaired-pointer`. The validation script assumes this is the case, and the IoT application you will set up in the next goal relies on these names matching.
 - When you train, use *Quick training*.
 - The training can take a while - even with quick training, so whilst your model is training, work on the other goals.
 
