@@ -16,4 +16,4 @@ The code for the IoT device is Python, so you will need to have a recent version
 
 ## Next challenge
 
-Once your PC or Mac is ready, it's time to [train the ML model](./train-model).
+Once your PC or Mac is ready, it's time to [train the ML model](./train-model.md).
