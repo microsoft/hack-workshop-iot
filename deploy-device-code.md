@@ -18,7 +18,7 @@ The code has the following files:
 | classifier.py            | This file contains the `Classifier` class that uses the Custom Vision image classifier to classify an image from the camera |
 | device_client.py         | This file contains the `DeviceClient` class that connects to IoT Central, listens for commands and sends telemetry          |
 | requirements.txt         | This file contains the Pip packages that are needed to run this code on a Raspberry Pi                                      |
-| requirements-linux.tx  t | This file contains the Pip packages that are needed to run this code on Linux                                               |
+| requirements-linux.txt   | This file contains the Pip packages that are needed to run this code on Linux                                               |
 | requirements-macos.txt   | This file contains the Pip packages that are needed to run this code on macOS                                               |
 | requirements-windows.txt | This file contains the Pip packages that are needed to run this code on Windows                                             |
 
