@@ -90,14 +90,14 @@ Your team will set up the Pi, ML model and IoT application, then connect everyth
 
 > 💁 Each goal below defines what you need to achieve, and points you to relevant on-line resources that will show you how the cloud services or tools work. The aim here is not to provide you with detailed steps to complete the task, but allow you to explore the documentation and learn more about the services as you work out how to complete each goal.
 
-1. [Set up your Raspberry Pi and camera](set-up-pi.md): You will need to set up a clean install of Raspberry Pi OS on your Pi and ensure all the required software is installed.
+0. [Set up your Raspberry Pi and camera](set-up-pi.md): You will need to set up a clean install of Raspberry Pi OS on your Pi and ensure all the required software is installed.
     > 💻 If you are using a PC or Mac instead of a Pi, your team will need to [set this up instead](set-up-pc-mac.md).
 
 1. [Train your ML model](train-model.md): Your team will need to train the ML model in the cloud using Microsoft Custom Vision. You can train and test this model using the images that have been provided by the animal shelter.
 
-1. [Set up your IoT application](set-up-iot-central.md): Your team will set up an IoT application in the cloud using IoT Central, an IoT software-as-a-service (SaaS) platform. You will be provided with a pre-built application template to use.
+2. [Set up your IoT application](set-up-iot-central.md): Your team will set up an IoT application in the cloud using IoT Central, an IoT software-as-a-service (SaaS) platform. You will be provided with a pre-built application template to use.
 
-1. [Deploy device code to your Pi](deploy-device-code.md): The code for the IoT device needs to be configured and deployed to the Raspberry Pi. You will then be able to test out your application.
+3. [Deploy device code to your Pi](deploy-device-code.md): The code for the IoT device needs to be configured and deployed to the Raspberry Pi. You will then be able to test out your application.
 
     > 💻 If you are using a PC or Mac instead of a Pi, your team will need to run the device code locally.
 
