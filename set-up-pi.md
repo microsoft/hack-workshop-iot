@@ -67,11 +67,12 @@ Once this is working, you will be able to use your Pi.
 
 > 💁 If you have any issues connecting, you can install the full Raspberry Pi OS (not Lite) and connect your Pi to a keyboard/monitor/mouse to configure the WiFi, and get the IP address of the Pi, then connect using that.
 
-You will need to update your Pi, and install some software that interacts with cameras. Run the following code on the Pi:
+You will need to update your Pi, and install some software that interacts with cameras, as well as some Python tools. Run the following code on the Pi:
 
 ```sh
 sudo apt update && sudo apt full-upgrade --yes
 sudo apt install --yes libatlas-base-dev libhdf5-dev libhdf5-serial-dev libatlas-base-dev libjasper-dev libqtgui4 libqt4-test
+sudo apt install --yes python3-dev python3-pip
 sudo raspi-config nonint do_camera 0
 sudo reboot
 ```
