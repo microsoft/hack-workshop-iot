@@ -3,7 +3,7 @@ site_name: Microsoft IoT Workshop
 site_url: https://microsoft.github.io/hack-workshop-iot/
 site_author: Microsoft
 site_description: >-
-  Learn to build and IoT device to detect dog breeds using Azure!
+  Learn to build an IoT device to detect dog breeds using Azure!
 
 # Repository
 repo_name: microsoft/hack-workshop-iot
