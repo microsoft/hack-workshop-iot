@@ -6,7 +6,7 @@ Your team has trained an ML model and set up an IoT application. The final task 
 
 ## The code
 
-The code has been provided for you in the [code](./code) folder, so make sure you clone this repo. This code is Python code that will connect to your IoT Central application and wait for the *Detect Breed* command. Once this command is received, it will take a picture using either the Raspberry Pi Camera module, or a USB web cam. The detected breed will be sent back to the IoT Central application and you will be able to see it on the dashboard.
+The code has been provided for you in the code folder of the [Hack Workshop IoT repo](https://github.com/microsoft/hack-workshop-iot). You will need to clone this repo to get the code. This code is Python code that will connect to your IoT Central application and wait for the *Detect Breed* command. Once this command is received, it will take a picture using either the Raspberry Pi Camera module, or a USB web cam. The detected breed will be sent back to the IoT Central application and you will be able to see it on the dashboard.
 
 The code has the following files:
 

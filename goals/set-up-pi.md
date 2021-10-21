@@ -1,6 +1,6 @@
 # Goal 0: Set up your Pi
 
-The goal here is to set up your Rasbperry Pi ready to use as an IoT device.
+The goal here is to set up your Raspberry Pi ready to use as an IoT device.
 
 > ⏱ This will take a while, but most of it is hands-off time waiting for SD cards to be imaged or updates to be installed, so it can be done concurrently with the other goals in this workshop.
 
