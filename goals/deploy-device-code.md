@@ -68,7 +68,7 @@ Have a mentor check your device. They should be able to point the device at an o
 
 ## Tips
 
-- You can copy code onto your device using VS Code. Connect to the Pi using the VS Code remote SSH extension, open a folder on your Pi, then drag the code into the VS Code explorer from your File Explorer or Finder. You will need all 3 files in the [code](./code) folder.
+- You can copy code onto your device using VS Code. Connect to the Pi using the VS Code remote SSH extension, open a folder on your Pi, then drag the code into the VS Code explorer from your File Explorer or Finder. You will need all 3 files in the [code](https://github.com/microsoft/hack-workshop-iot/tree/main/code) folder.
 
 - If you are using the Raspberry Pi camera module, the code assumes you have this cable side up. If you want to have the camera cable side down, or sideways, you need to change the value of `CAMERA_ROTATION` in `camera.py` to the right value. `0` means the cable is at the bottom, `90` for the cable on one side, `270` for the cable on the other side.
 
@@ -76,7 +76,7 @@ Have a mentor check your device. They should be able to point the device at an o
 
 - You can validate the images taken from the Custom Vision portal. When images are classified, they appear in the *Predictions* tab in Custom Vision. You can use this to validate your camera is configured correctly.
 
-- Unless you have a dog of the relevant breed handy, you can test the app out by loading one of the pictures from the [model-images/testing-images](./model-images/testing-images) and having that on your screen, then pointing the camera on the Mutt Matcher at your screen.
+- Unless you have a dog of the relevant breed handy, you can test the app out by loading one of the pictures from the [model-images/testing-images](https://github.com/microsoft/hack-workshop-iot/tree/main/model-images) and having that on your screen, then pointing the camera on the Mutt Matcher at your screen.
 
 - The `requirements-macos.txt` file has been tested on an M1 mac running macOS Big Sur 11.5.2. If you have any issues on other configurations, you may need to change the versions of the Pip packages installed.
 

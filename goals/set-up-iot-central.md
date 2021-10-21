@@ -6,13 +6,13 @@ The goal of this section is to deploy an IoT Central application, and define a d
 
 ## The Azure Service
 
-[![The IoT Cental logo](./images/azure-iot-central-logo.png)](https://azure.microsoft.com/services/iot-central/?WT.mc_id=academic-36256-jabenn)
+[![The IoT Cental logo](../images/azure-iot-central-logo.png)](https://azure.microsoft.com/services/iot-central/?WT.mc_id=academic-36256-jabenn)
 
 Azure IoT Central is an IoT software-as-a-service (SaaS) application. You can use it to create an IoT application in the cloud that can manage IoT devices, as well as communicating with those devices. You can use it to define *device templates* that define that telemetry data an IoT device will send, and what commands you can send to that device to control it.
 
 You can then register devices inside the application, ensuring you have control over what physical IoT devices will connect to your IoT application. You can also set up views and dashboards to visualize the data send from your devices.
 
-![An application dashboard showing the last detected breed as a German wirehaired pointer, as well as a pie chart of detected breeds](./images/iot-central-dashboard.png)
+![An application dashboard showing the last detected breed as a German wirehaired pointer, as well as a pie chart of detected breeds](../images/iot-central-dashboard.png)
 
 For this workshop, you will need an IoT application that has a device template for Mutt Matchers, defining a *command* that instructs the device to take a picture and detect the breed, and *telemetry* data that the device will send with the detected breed.
 
@@ -98,7 +98,7 @@ Your team might find these resources helpful:
 
 ## Final result
 
-![A mutt matcher device in IoT Central with no data](./images/mutt-matcher-device-new.png)
+![A mutt matcher device in IoT Central with no data](../images/mutt-matcher-device-new.png)
 
 ## Next challenge
 

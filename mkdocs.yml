@@ -81,7 +81,7 @@ plugins:
 
 # Navigation
 nav:
-    - Overview: 'index.md'
+    - Overview: 'README.md'
     - 'Goals':
       - 'set-up-pi.md'
       - 'set-up-pc-mac.md'
