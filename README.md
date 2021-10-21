@@ -4,17 +4,17 @@ According to the World Health Organization there are more than 200 million stray
 
 Different breeds have different needs, or react differently to people, so when a stray or lost dog is found, identifying the breed can be a great help.
 
-![A Raspberry Pi with a camera](./media/mutt-matcher-device.png)
+![A Raspberry Pi with a camera](./goals/media/mutt-matcher-device.png)
 
 Your team has been asked by a fictional animal shelter to build a Mutt Matcher - a device to help determine the breed of a dog when it has been found. This will be an IoT (Internet of Things) device based around a Raspberry Pi with a camera, and will take a photo of the dog, and then use an image classifier Machine learning (ML) model to determine the breed, before uploading the results to a web-based IoT application.
 
 This device will help workers and volunteers to be able to quickly detect the breed and make decisions on the best way to approach and care for the dog.
 
-![An application dashboard showing the last detected breed as a German wire pointer, as well as a pie chart of detected breeds](./media/iot-central-dashboard.png)
+![An application dashboard showing the last detected breed as a German wire pointer, as well as a pie chart of detected breeds](./goals/media/iot-central-dashboard.png)
 
 The animal shelter has provided [a set of images](https://github.com/microsoft/hack-workshop-iot/tree/main/model-images) for a range of dog breeds to get you started. These can be used to train the ML model using a service called Custom Vision.
 
-![Pictures of dogs](./media/dog-pictures.png)
+![Pictures of dogs](./goals/media/dog-pictures.png)
 
 ## Prerequisites
 
@@ -58,7 +58,7 @@ If you get stuck, you can always ask a mentor for additional help.
 
 ## Exploring the application
 
-![Icons for Custom Vision, IoT Central and Raspberry Pi](./media/app-icons.png)
+![Icons for Custom Vision, IoT Central and Raspberry Pi](./goals/media/app-icons.png)
 
 The application your team will build will consist of 3 components:
 
@@ -68,7 +68,7 @@ The application your team will build will consist of 3 components:
 
 - A Raspberry Pi based IoT device with a camera
 
-![The application flow described below](./media/app-flow.png)
+![The application flow described below](./goals/media/app-flow.png)
 
 When a dog breed needs to be detected:
 
