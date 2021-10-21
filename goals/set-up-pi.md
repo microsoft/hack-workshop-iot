@@ -6,7 +6,7 @@ The goal here is to set up your Raspberry Pi ready to use as an IoT device.
 
 ## Raspberry Pi
 
-![The Raspberry Pi logo](../images/raspberry-pi-logo.png)
+![The Raspberry Pi logo](./media/raspberry-pi-logo.png)
 
 ## Flash an SD card
 
@@ -20,7 +20,7 @@ You will need to install either Raspberry Pi OS (which contains a full desktop e
 
 To install Raspberry Pi OS on an SD Card, you will need to use the Raspberry Pi imager. You can download the imager from the [Raspberry Pi downloads page](https://www.raspberrypi.org/software/).
 
-![The imageer choosing Raspberry Pi OS lite](../images/raspberry-pi-imager.png)
+![The imageer choosing Raspberry Pi OS lite](./media/raspberry-pi-imager.png)
 
 Run the imager, select the Raspberry Pi OS Lite OS, and select your SD card. Don't select the write button yet!
 
@@ -44,8 +44,8 @@ Once you have configured these options, write the image to the SD card.
 
 When the write has completed, insert the SD card into your Pi.
 
-![The camera cable connected to the Pi](../images/pi-camera-socket-ribbon-cable.png)
-![The camera cable connected to the Pi Camera module](../images/pi-camera-ribbon-cable.png)
+![The camera cable connected to the Pi](./media/pi-camera-socket-ribbon-cable.png)
+![The camera cable connected to the Pi Camera module](./media/pi-camera-ribbon-cable.png)
 
 If you are using a Raspberry Pi Camera module, insert the camera into the camera socket using the ribbon cable. You can find instructions on doing this in the [Raspberry Pi Getting started with the Camera Module documentation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/2). If you are using a USB web cam, connect it to one of the USB ports on the Pi.
 

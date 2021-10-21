@@ -10,11 +10,11 @@ Your team will use a cloud service that uses transfer learning to train an ML mo
 
 ## The Azure Service
 
-[![The custom vision logo](../images/custom-vision-logo.png)](https://customvision.ai?WT.mc_id=academic-36256-jabenn)
+[![The custom vision logo](./media/custom-vision-logo.png)](https://customvision.ai?WT.mc_id=academic-36256-jabenn)
 
 The transfer learning service to use is [Custom Vision](https://customvision.ai?WT.mc_id=academic-36256-jabenn). This is a service from Microsoft that can train image classifiers using only a small number of images for each tag. Once your model has been trained, it can be published to be run in the cloud, using one of the Custom Vision SDKs for programming languages such as Python, Java or C#, or via a REST API. You can also download your model and run it locally on an IoT device, a web page, or in an application.
 
-![An american staffordshire terrier detected with an 89.5% probability](../images/custom-vision-detect-dog.png)
+![An american staffordshire terrier detected with an 89.5% probability](./media/custom-vision-detect-dog.png)
 
 Image classifiers don't give a single fixed answer of the detected tag, instead they provide a list of all the tags that the model has been trained on with the probability that the image matches that tag. In the image above, the results show values against each tag:
 
@@ -67,7 +67,7 @@ You can validate your model using a Python script inside this repo.
 
 1. When prompted, enter the prediction key and the image file URL for your published model iteration. You can get these from the prediction API dialog from the **Prediction URL** button of the published iteration. You then need the *Image file* url and prediction key.
 
-    ![The prediction key and url dialog](../images/prediction-key-url.png)
+    ![The prediction key and url dialog](./media/prediction-key-url.png)
 
 This validation script will take the testing images, and test them against the model to ensure the correct tag is found as the most probable. You will see output like the following:
 
@@ -100,7 +100,7 @@ Your team might find these resources helpful:
 
 ## Final result
 
-![A published iteration of the model](../images/published-iteration.png)
+![A published iteration of the model](./media/published-iteration.png)
 
 ## Next challenge
 
