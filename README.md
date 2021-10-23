@@ -91,7 +91,7 @@ Your team will set up the Pi, ML model and IoT application, then connect everyth
 > 💁 Each goal below defines what you need to achieve, and points you to relevant on-line resources that will show you how the cloud services or tools work. The aim here is not to provide you with detailed steps to complete the task, but allow you to explore the documentation and learn more about the services as you work out how to complete each goal.
 
 0. [Set up your Raspberry Pi and camera](./goals/set-up-pi.md): You will need to set up a clean install of Raspberry Pi OS on your Pi and ensure all the required software is installed.
-    > 💻 If you are using a PC or Mac instead of a Pi, your team will need to [set this up instead](set-up-pc-mac.md).
+    > 💻 If you are using a PC or Mac instead of a Pi, your team will need to [set this up instead](./goals/set-up-pc-mac.md).
 
 1. [Train your ML model](./goals/train-model.md): Your team will need to train the ML model in the cloud using Microsoft Custom Vision. You can train and test this model using the images that have been provided by the animal shelter.
 
